@@ -1,4 +1,4 @@
-# Crypto data collection using the Bitfinex API
+# Crypto signal data collection using the TradeView
 
 ## Deployment instructions
 These instructions assume you are using a Unix based system (Linux or macOS) running a bash terminal.
@@ -41,27 +41,27 @@ These instructions assume you are using a Unix based system (Linux or macOS) run
 
  ```
 ├── functions
-│   ├── collect-books
+│   ├── BIN_NEO_15
 │   │   ├── clean-up.sh
 │   │   ├── function.json
 │   │   ├── main.py
 │   │   └── requirements.txt
-│   ├── collect-candles
+│   ├── BIN_NEO_1D
 │   │   ├── clean-up.sh
 │   │   ├── function.json
 │   │   ├── main.py
 │   │   └── requirements.txt
-│   ├── collect-stats
+│   ├── BIT_ADA_60
 │   │   ├── clean-up.sh
 │   │   ├── function.json
 │   │   ├── main.py
 │   │   └── requirements.txt
-│   ├── collect-tickers
+│   ├── BIT_KEY_240
 │   │   ├── clean-up.sh
 │   │   ├── function.json
 │   │   ├── main.py
 │   │   └── requirements.txt
-│   └── collect-trades
+│   └── KRA_BTC_120
 │       ├── clean-up.sh
 │       ├── function.json
 │       ├── main.py
