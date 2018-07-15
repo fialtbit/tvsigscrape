@@ -1,0 +1,6 @@
+{
+  "hooks": {
+    "build": "pip install -r requirements.txt -t .",
+    "clean": "sh clean-up.sh"
+  }
+}
