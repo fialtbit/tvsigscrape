@@ -1,0 +1,8 @@
+{
+  "name": "tvsigscrape",
+  "description": "Scrape crypto signals from tradeview",
+  "memory": 128,
+  "timeout": 30,
+  "role": "arn:aws:iam::476986595625:role/tvsigscrape_lambda_function",
+  "environment": {}
+}
